@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 const Services = ()=>{
     return <div>
@@ -6,7 +7,7 @@ const Services = ()=>{
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-md-12">
-                        <h2 className="site-section-heading text-center text-uppercase">Our Services</h2>
+                        <h2 className="site-section-heading text-center text-uppercase">На вопросы отвечает космонавт Сергей Рязанский</h2>
                     </div>
                 </div>
                 <div className="row">
@@ -15,49 +16,59 @@ const Services = ()=>{
                     <div className="col-md-4 text-center mb-4">
                         <div className="border p-4 text-with-icon">
                             <span className="flaticon-customer-service icon display-4 mb-4 d-block text-primary"></span>
-                            <h2 className="h5 text-uppercase">Insurance Service 1</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
-                            <p><a href="#">Learn More</a></p>
+                            <h2 className="h5 text-uppercase">Почему ракета летит?</h2>
+                            <p>Засчет принципа реактивного движения: раскаленные газы, вырывающиеся из сопла ракеты,
+                                создают тягу, которая толкает ракету в противоположную сторону.</p>
+                            <p><NavLink to="https://www.labirint.ru/books/698138/">Заказать книгу</NavLink></p>
                         </div>
                     </div>
                     <div className="col-md-4 text-center mb-4">
                         <div className="border p-4 text-with-icon">
                             <span className="flaticon-group icon display-4 mb-4 d-block text-primary"></span>
-                            <h2 className="h5 text-uppercase">Insurance Service 2</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
-                            <p><a href="#">Learn More</a></p>
+                            <h2 className="h5 text-uppercase">Какая скорость нужна, чтобы выйти на орбиту Земли?</h2>
+                            <p>Первая космическая скорость: 7,91 км/с.</p>
+                            <p><a href="#">Заказать книгу</a></p>
                         </div>
                     </div>
                     <div className="col-md-4 text-center mb-4">
                         <div className="border p-4 text-with-icon">
                             <span className="flaticon-medal icon display-4 mb-4 d-block text-primary"></span>
-                            <h2 className="h5 text-uppercase">Insurance Service 3</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
-                            <p><a href="#">Learn More</a></p>
+                            <h2 className="h5 text-uppercase">Какая скорость нужна, чтобы добраться до Луны и Марса?</h2>
+                            <p>Для полета на Луну для старта с земной поверхности достаточно разогнаться до 11,09 км/с.
+                                Для полета на Марс нужно разогнать космический аппарат до скорости 11,42 км/с. </p>
+                            <p><a href="#">Заказать книгу</a></p>
                         </div>
                     </div>
                     <div className="col-md-4 text-center mb-4">
                         <div className="border p-4 text-with-icon">
                             <span className="flaticon-agreement icon display-4 mb-4 d-block text-primary"></span>
-                            <h2 className="h5 text-uppercase">Insurance Service 4</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
-                            <p><a href="#">Learn More</a></p>
+                            <h2 className="h5 text-uppercase">Почему мы летаем с Байконура в Казахстане?</h2>
+                            <p>Так исторически сложилось. Казахстан еще недавно был частью Советского Союза.
+                                И еще - чем космодром южнее, тем больше орбит он охватывает.
+                                Байконур в этом смысле расположен выгодно</p>
+                            <p><a href="#">Заказать книгу</a></p>
                         </div>
                     </div>
                     <div className="col-md-4 text-center mb-4">
                         <div className="border p-4 text-with-icon">
                             <span className="flaticon-line-chart icon display-4 mb-4 d-block text-primary"></span>
-                            <h2 className="h5 text-uppercase">Insurance Service 5</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
-                            <p><a href="#">Learn More</a></p>
+                            <h2 className="h5 text-uppercase">Где проходит граница между космосом и атмосферой?</h2>
+                            <p>Век назад ученые полагали, что граница атмосферы проходит на высоте 12 км, т.к. человек не сможет дышать из-за малого содержание кислорода.
+                                Сегодня условную границу космоса проводят на высоте 100 км, куда не может подняться авиация из-за отсутствия подъемной силы воздуха.
+                            </p>
+                            <p><a href="#">Заказать книгу</a></p>
                         </div>
                     </div>
                     <div className="col-md-4 text-center mb-4">
                         <div className="border p-4 text-with-icon">
                             <span className="flaticon-target icon display-4 mb-4 d-block text-primary"></span>
-                            <h2 className="h5 text-uppercase">Insurance Service 6</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente libero</p>
-                            <p><a href="#">Learn More</a></p>
+                            <h2 className="h5 text-uppercase">Какие цели преследует космонавтика?</h2>
+                            <p>1. Система предотвращения на случай появления астероида/кометы.</p>
+                            <p>2. Изучение человека в космосе.</p>
+                            <p>3. Поиск новой жизни.</p>
+                            <p>4. Поиск запасной планеты для человечества.</p>
+                            <p>5. Космонавтика поднимает нас ввысь. </p>
+                            <p><a href="#">Заказать книгу</a></p>
                         </div>
                     </div>
 

@@ -45,10 +45,10 @@ const Menu = ()=>{
                                                 <li><NavLink to="#">Плутон</NavLink></li>
                                             </ul>
                                         </li>
-                                        <li><NavLink to="/services">Services</NavLink></li>
+                                        <li><NavLink to="/services">Космонавт отвечает</NavLink></li>
                                         <li><NavLink to="/blog">Blog</NavLink></li>
                                         <li><NavLink to="/about">About</NavLink></li>
-                                        <li><NavLink to="/contact">Contact</NavLink></li>
+                                        <li><NavLink to="/contact">Контакты</NavLink></li>
                                         <li><NavLink to="/contact"><span
                                             className="d-inline-block p-3 bg-primary text-white btn btn-primary">Get A Quote</span></NavLink>
                                         </li>

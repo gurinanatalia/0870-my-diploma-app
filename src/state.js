@@ -1,6 +1,6 @@
 
 export async function getArticles(){
-    let response = await fetch("http://0870.vozhzhaev.ru/getArticles");
+    let response = await fetch("http://site2.gurinavw.beget.tech/getArticles");
     let articles = await response.json();
     return articles;
 }

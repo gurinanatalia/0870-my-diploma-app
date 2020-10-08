@@ -74,14 +74,14 @@ function App(props) {
               }}/>
               <Route path="/questions" render={()=>{
                 return <div>
-                      <Caption h1="OUR SERVICES"/>
+                      <Caption h1="космонавт сергей рязанский"/>
                       <Services/>
                       <ContactUsLine/>
                 </div>
           }}/>
               <Route path="/blog" render={()=>{
                   return <div>
-                      <Caption h1="BLOG"/>
+                      <Caption h1="космонавт олег артемьев"/>
                       <Blog getArticles={props.getArticles}/>
                   </div>
               }}/>

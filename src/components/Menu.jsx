@@ -45,8 +45,8 @@ const Menu = ()=>{
                                                 <li><NavLink to="/pluto">Плутон</NavLink></li>
                                             </ul>
                                         </li>
-                                        <li><NavLink to="/questions">Космонавт отвечает</NavLink></li>
-                                        <li><NavLink to="/blog">Blog</NavLink></li>
+                                        <li><NavLink to="/questions">Вопрос/ответтзь</NavLink></li>
+                                        <li><NavLink to="/blog">Блог</NavLink></li>
                                         <li><NavLink to="/about">About</NavLink></li>
                                         <li><NavLink to="/contact">Контакты</NavLink></li>
                                         <li><NavLink to="/contact"><span

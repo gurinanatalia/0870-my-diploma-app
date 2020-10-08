@@ -13,7 +13,7 @@ import Caption from "./components/Caption";
 import Services from "./components/Services";
 import Blog from "./components/Blog";
 
-function App() {
+function App(props) {
   return(
       <div className="site-wrap">
           <BrowserRouter>
@@ -27,7 +27,52 @@ function App() {
                       <ContactUsLine/>
                   </div>
               }}/>
-              <Route path="/services" render={()=>{
+              <Route path="/mercury" render={()=>{
+                  return <div>
+                      mercury
+                  </div>
+              }}/>
+              <Route path="/venus" render={()=>{
+                  return <div>
+                      venus
+                  </div>
+              }}/>
+              <Route path="/earth" render={()=>{
+                  return <div>
+                      earth
+                  </div>
+              }}/>
+              <Route path="/mars" render={()=>{
+                  return <div>
+                      mars
+                  </div>
+              }}/>
+              <Route path="/jupiter" render={()=>{
+                  return <div>
+                      jupiter
+                  </div>
+              }}/>
+              <Route path="/saturn" render={()=>{
+                  return <div>
+                      saturn
+                  </div>
+              }}/>
+              <Route path="/uranus" render={()=>{
+                  return <div>
+                      uranus
+                  </div>
+              }}/>
+              <Route path="/neptune" render={()=>{
+                  return <div>
+                      neptune
+                  </div>
+              }}/>
+              <Route path="/pluto" render={()=>{
+                  return <div>
+                      pluto
+                  </div>
+              }}/>
+              <Route path="/questions" render={()=>{
                 return <div>
                       <Caption h1="OUR SERVICES"/>
                       <Services/>
@@ -37,6 +82,18 @@ function App() {
               <Route path="/blog" render={()=>{
                   return <div>
                       <Caption h1="BLOG"/>
+                      <Blog getArticles={props.getArticles}/>
+                  </div>
+              }}/>
+              <Route path="/about" render={()=>{
+                  return <div>
+                      <Caption h1="BLOG"/>
+                      <Blog/>
+                  </div>
+              }}/>
+              <Route path="/contact" render={()=>{
+                  return <div>
+                      <Caption h1="contact"/>
                       <Blog/>
                   </div>
               }}/>

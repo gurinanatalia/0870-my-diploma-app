@@ -32,20 +32,20 @@ const Menu = ()=>{
                                     <ul className="site-menu js-clone-nav d-none d-lg-block">
                                         <li><NavLink exact to="/">На главную</NavLink></li>
                                         <li className="has-children">
-                                            <NavLink to="insurance.html">Планеты</NavLink>
+                                            <NavLink to="/mercury">Планеты</NavLink>
                                             <ul className="dropdown arrow-top">
-                                                <li><NavLink to="#">Меркурий</NavLink></li>
-                                                <li><NavLink to="#">Венера</NavLink></li>
-                                                <li><NavLink to="#">Земля</NavLink></li>
-                                                <li><NavLink to="#">Марс</NavLink></li>
-                                                <li><NavLink to="#">Юпитер</NavLink></li>
-                                                <li><NavLink to="#">Сатурн</NavLink></li>
-                                                <li><NavLink to="#">Уран</NavLink></li>
-                                                <li><NavLink to="#">Нептун</NavLink></li>
-                                                <li><NavLink to="#">Плутон</NavLink></li>
+                                                <li><NavLink to="/mercury">Меркурий</NavLink></li>
+                                                <li><NavLink to="/venus">Венера</NavLink></li>
+                                                <li><NavLink to="/earth">Земля</NavLink></li>
+                                                <li><NavLink to="/mars">Марс</NavLink></li>
+                                                <li><NavLink to="/jupiter">Юпитер</NavLink></li>
+                                                <li><NavLink to="/saturn">Сатурн</NavLink></li>
+                                                <li><NavLink to="/uranus">Уран</NavLink></li>
+                                                <li><NavLink to="/neptune">Нептун</NavLink></li>
+                                                <li><NavLink to="/pluto">Плутон</NavLink></li>
                                             </ul>
                                         </li>
-                                        <li><NavLink to="/services">Космонавт отвечает</NavLink></li>
+                                        <li><NavLink to="/questions">Космонавт отвечает</NavLink></li>
                                         <li><NavLink to="/blog">Blog</NavLink></li>
                                         <li><NavLink to="/about">About</NavLink></li>
                                         <li><NavLink to="/contact">Контакты</NavLink></li>

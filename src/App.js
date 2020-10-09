@@ -11,6 +11,7 @@ import ContactUsLine from "./components/ContactUsLine";
 import {BrowserRouter,Route} from "react-router-dom";
 import Caption from "./components/Caption";
 import Services from "./components/Services";
+import OwlCarousel from "./components/OwlCarousel";
 import Blog from "./components/Blog";
 
 function App(props) {
@@ -29,7 +30,7 @@ function App(props) {
               }}/>
               <Route path="/mercury" render={()=>{
                   return <div>
-                      mercury
+                      <OwlCarousel/>
                   </div>
               }}/>
               <Route path="/venus" render={()=>{

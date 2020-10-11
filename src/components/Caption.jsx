@@ -7,7 +7,7 @@ const Caption = (props)=>{
             <div className="row align-items-center justify-content-center">
                 <div className="col-md-7 text-center" data-aos="fade">
                     <h1 className="text-uppercase">{props.h1}</h1>
-                    <span className="caption d-block text-white">An Insurance Company</span>
+                    <span className="caption d-block text-white">Герой России</span>
                 </div>
             </div>
         </div>

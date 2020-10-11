@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 const Footer = ()=>{
     return <div>
@@ -9,30 +10,33 @@ const Footer = ()=>{
 
                 <div className="row">
                     <div className="col-md-4">
-                        <h3 className="footer-heading mb-4 text-white">About</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quos rem ullam, placeat amet.</p>
-                        <p><a href="#" className="btn btn-primary rounded text-white px-4">Read More</a></p>
+                        <h3 className="footer-heading mb-4 text-white">МКС в реальном времени</h3>
+                        <p>Видимые пролеты Международной космической станции, прямая трансляция с МКС, сейчас на борту и многое другое</p>
+                        <p><a href="http://mks-online.ru/" className="btn btn-primary rounded text-white px-4">Перейти</a></p>
                     </div>
                     <div className="col-md-5 ml-auto">
                         <div className="row">
                             <div className="col-md-6">
-                                <h3 className="footer-heading mb-4 text-white">Quick Menu</h3>
+                                <h3 className="footer-heading mb-4 text-white">Меню</h3>
                                 <ul className="list-unstyled">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Insurance</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contacts</a></li>
-                                    <li><a href="#">Privacy</a></li>
+                                    <li><NavLink exact to="/">На главную</NavLink></li>
+                                    <li><NavLink to="/questions">Вопрос/ответ</NavLink></li>
+                                    <li><NavLink to="/blog">Блог</NavLink></li>
+                                    <li><NavLink to="/contact">Задать вопрос</NavLink></li>
                                 </ul>
                             </div>
                             <div className="col-md-6">
-                                <h3 className="footer-heading mb-4 text-white">Insurance</h3>
+                                <h3 className="footer-heading mb-4 text-white">Планеты</h3>
                                 <ul className="list-unstyled">
-                                    <li><a href="#">Home Insurance</a></li>
-                                    <li><a href="#">Auto Insurance</a></li>
-                                    <li><a href="#">Travel Insurance</a></li>
-                                    <li><a href="#">Business Insurance</a></li>
+                                    <li><NavLink to="/mercury">Меркурий</NavLink></li>
+                                    <li><NavLink to="/venus">Венера</NavLink></li>
+                                    <li><NavLink to="/earth">Земля</NavLink></li>
+                                    <li><NavLink to="/mars">Марс</NavLink></li>
+                                    <li><NavLink to="/jupiter">Юпитер</NavLink></li>
+                                    <li><NavLink to="/saturn">Сатурн</NavLink></li>
+                                    <li><NavLink to="/uranus">Уран</NavLink></li>
+                                    <li><NavLink to="/neptune">Нептун</NavLink></li>
+                                    <li><NavLink to="/pluto">Плутон</NavLink></li>
                                 </ul>
                             </div>
                         </div>
@@ -40,14 +44,12 @@ const Footer = ()=>{
 
 
                     <div className="col-md-2">
-                        <div className="col-md-12"><h3 className="footer-heading mb-4 text-white">Social Icons</h3></div>
+                        <div className="col-md-12"><h3 className="footer-heading mb-4 text-white">Роскосмос, NASA, ESA</h3></div>
                         <div className="col-md-12">
                             <p>
-                                <a href="#" className="pb-2 pr-2 pl-0"><span className="icon-facebook"></span></a>
-                                <a href="#" className="p-2"><span className="icon-twitter"></span></a>
-                                <a href="#" className="p-2"><span className="icon-instagram"></span></a>
-                                <a href="#" className="p-2"><span className="icon-vimeo"></span></a>
-
+                                <a href="https://www.instagram.com/roscosmosofficial/?hl=ru" className="p-2"><span className="icon-instagram"></span></a>
+                                <a href="https://www.facebook.com/NASA" className="pb-2 pr-2 pl-0"><span className="icon-facebook"></span></a>
+                                <a href="https://twitter.com/esa" className="p-2"><span className="icon-twitter"></span></a>
                             </p>
                         </div>
                     </div>

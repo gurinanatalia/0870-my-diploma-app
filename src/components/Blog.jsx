@@ -45,19 +45,7 @@ class Blog extends React.Component {
                     {this.state.blogItems}
                 </div>
 
-                <div className="row">
-                    <div className="col-12 text-center">
-                        <div className="custom-pagination">
-                            <span className="current">1</span>
-                            <a href="#">2</a>
-                            <a href="#">3</a>
-                            <a href="#">4</a>
-                            <a href="#">5</a>
-                            <span>...</span>
-                            <a href="#">14</a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     }

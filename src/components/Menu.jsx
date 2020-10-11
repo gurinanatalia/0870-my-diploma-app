@@ -47,10 +47,8 @@ const Menu = ()=>{
                                         </li>
                                         <li><NavLink to="/questions">Вопрос/ответ</NavLink></li>
                                         <li><NavLink to="/blog">Блог</NavLink></li>
-                                        <li><NavLink to="/about">About</NavLink></li>
-                                        <li><NavLink to="/contact">Контакты</NavLink></li>
                                         <li><NavLink to="/contact"><span
-                                            className="d-inline-block p-3 bg-primary text-white btn btn-primary">Get A Quote</span></NavLink>
+                                            className="d-inline-block p-3 bg-primary text-white btn btn-primary">Задать вопрос</span></NavLink>
                                         </li>
                                     </ul>
                                 </div>

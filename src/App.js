@@ -13,6 +13,7 @@ import Caption from "./components/Caption";
 import Services from "./components/Services";
 import OwlCarousel from "./components/OwlCarousel";
 import Blog from "./components/Blog";
+import ContactUs from "./components/ContactUs";
 
 function App(props) {
   return(
@@ -75,27 +76,21 @@ function App(props) {
               }}/>
               <Route path="/questions" render={()=>{
                 return <div>
-                      <Caption h1="космонавт сергей рязанский"/>
+                      <Caption h1="Космонавт Сергей Рязанский" h2="Герой России"/>
                       <Services/>
                       <ContactUsLine/>
                 </div>
           }}/>
               <Route path="/blog" render={()=>{
                   return <div>
-                      <Caption h1="космонавт олег артемьев"/>
+                      <Caption h1="Космонавт Олег Артемьев" h2="Герой России"/>
                       <Blog getArticles={props.getArticles}/>
-                  </div>
-              }}/>
-              <Route path="/about" render={()=>{
-                  return <div>
-                      <Caption h1="BLOG"/>
-                      <Blog/>
                   </div>
               }}/>
               <Route path="/contact" render={()=>{
                   return <div>
-                      <Caption h1="contact"/>
-                      <Blog/>
+                      <Caption h1="Связаться с нами" h2="Задать вопрос"/>
+                      <ContactUs/>
                   </div>
               }}/>
               <Footer/>

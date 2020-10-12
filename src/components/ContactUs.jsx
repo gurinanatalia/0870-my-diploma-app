@@ -30,15 +30,15 @@ class ContactUs extends React.Component{
                         <form action="#" className="p-5 bg-white" onSubmit={this.sendMail}>
                             <div className="row form-group">
                                 <div className="col-md-12">
-                                    <label className="font-weight-bold" htmlFor="message">Message</label>
+                                    <label className="font-weight-bold" htmlFor="message">Сообщение</label>
                                     <textarea cols="30" rows="5" className="form-control"
-                                              placeholder="Say hello to us" value={this.state.value} onChange={this.handleChange}></textarea>
+                                              placeholder="Ваше сообщение" value={this.state.value} onChange={this.handleChange}></textarea>
                                 </div>
                             </div>
 
                             <div className="row form-group">
                                 <div className="col-md-12">
-                                    <input type="submit" value="Send Message"
+                                    <input type="submit" value="Отправить сообщение"
                                            className="btn btn-primary text-white px-4 py-2"/>
                                 </div>
                             </div>

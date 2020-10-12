@@ -5,22 +5,19 @@ const About = ()=>{
         <div className="site-section">
             <div className="container">
                 <div className="row mb-5">
-                    <div className="col-12"><h2 className="text-uppercase">We Are Trusted Agency Company</h2></div>
+                    <div className="col-12"><h1 className="text-uppercase">«Семейный портрет» (англ. Family Portrait)</h1></div>
                 </div>
                 <div className="row mb-5">
                     <div className="col-md-12">
-                        <img src="images/about_1.jpg" alt="image" className="img-fluid"/>
+                        <img src="images/family_portrait.png" alt="image" className="img-fluid"/>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-4 ml-auto">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aliquid eius facilis
-                            voluptatem eligendi magnam accusamus vel commodi asperiores sint rem reprehenderit nobis nesciunt
-                            veniam qui fugit doloremque numquam quod.</p>
+                    <div className="col-md-6 ml-auto">
+                        <p>- изображение Солнечной системы, полученное космическим аппаратом «Вояджер-1» 14 февраля 1990 года, последние фотографии, сделанные «Вояджером-1».</p>
                     </div>
-                    <div className="col-md-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora distinctio ipsam
-                            nesciunt recusandae repellendus asperiores amet.</p>
+                    <div className="col-md-6">
+                        <p> - изображение представляет собой мозаику из 60 отдельных изображений, которые были сделаны с расстояния около 6 миллиардов километров от Земли</p>
                     </div>
                 </div>
             </div>

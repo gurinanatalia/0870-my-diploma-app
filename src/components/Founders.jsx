@@ -3,29 +3,29 @@ import React from 'react';
 const Founders = ()=>{
     return <div>
         <div className="site-section"
-             style={{backgroundImage: "url('images/topography.png'), background-attachment: fixed"}}>
+             style={{backgroundImage: "url('images/topography.png')"}}>
             <div className="container">
-                <div className="row mb-5">
-                    <div className="col-md-12">
-                        <h2 className="site-section-heading text-center text-uppercase">Our Founders</h2>
-                    </div>
-                </div>
                 <div className="row justify-content-center">
-                    <div className="col-md-6 text-center">
-                        <img src="images/person_2.jpg" alt="Image" className="img-fluid rounded-circle w-25 mb-4"/>
-                        <h2 className="h5 ">Alex Peters</h2>
-                        <span className="d-block mb-4">CEO, Co-Founder</span>
-                        <p className="font-weig mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
-                            et aliquam fuga dicta amet ad laborum error recusandae, voluptatibus quam minima sed, saepe odio
-                            voluptatem. Sed unde hic, vitae fugiat.</p>
+                    <div className="col-md-6">
+                        <div className="row justify-content-center">
+                            <img src="images/god.jpg"   className="img-fluid w-50 mb-5" />
+                        </div>
+                        <p>Меркурий — ближайшая к Солнцу планета Солнечной системы, наименьшая из планет земной группы.
+                            Названа в честь древнеримского бога торговли — быстрого Меркурия,
+                            поскольку она движется по небу быстрее других планет.</p>
+                         <p>Видимое расстояние Меркурия от Солнца, если смотреть с Земли, никогда не превышает 28°.
+                            Эта близость к Солнцу означает,
+                            что планету можно увидеть только в течение небольшого времени после захода или до восхода солнца, обычно в сумерках.</p>
+                          <p>  В телескоп у Меркурия можно увидеть фазы, изменяющиеся от тонкого серпа до почти полного диска,
+                            как у Венеры и Луны, а иногда он проходит по диску Солнца.</p>
                     </div>
-                    <div className="col-md-6 text-center">
-                        <img src="images/person_3.jpg" alt="Image" className="img-fluid rounded-circle w-25 mb-4"/>
-                        <h2 className="h5">Shane Cripton</h2>
-                        <span className="d-block mb-4">President, Co-Founder</span>
-                        <p className="font-weig mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
-                            et aliquam fuga dicta amet ad laborum error recusandae, voluptatibus quam minima sed, saepe odio
-                            voluptatem. Sed unde hic, vitae fugiat.</p>
+                    <div className="col-md-6">
+                        <div className="row justify-content-center">
+                            <img src="images/sky.jpg"   className="img-fluid w-50 mb-2"/>
+                        </div>
+                        <p>После лишения Плутона в 2006 году статуса планеты к Меркурию перешло звание самой маленькой планеты Солнечной системы.</p>
+                        <p>Радиус Меркурия составляет всего 2439,7 ± 1,0 км, что меньше радиуса спутника Юпитера Ганимеда и спутника Сатурна Титана (двух самых больших спутников планет в солнечной системе).</p>
+                        <p>Но несмотря на меньший радиус, Меркурий превосходит Ганимед и Титан вместе взятые по массе. </p>
                     </div>
                 </div>
             </div>

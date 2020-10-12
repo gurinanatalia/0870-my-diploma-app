@@ -15,6 +15,10 @@ import OwlCarousel from "./components/OwlCarousel";
 import Blog from "./components/Blog";
 import ContactUs from "./components/ContactUs";
 import Bio from "./components/Bio";
+import SiteHalf from "./components/SiteHalf";
+import Pluto from "./components/Pluto";
+import Title from "./components/Title";
+import Founders2 from "./components/Founders2";
 
 function App(props) {
   return(
@@ -31,48 +35,51 @@ function App(props) {
               <Route path="/mercury" render={()=>{
                   return <div>
                       <OwlCarousel/>
+                      <Title h2="Меркурий"/>
                       <Founders/>
                       <Reviews/>
                   </div>
               }}/>
               <Route path="/venus" render={()=>{
                   return <div>
-                      venus
+                      <SiteHalf/>
                   </div>
               }}/>
               <Route path="/earth" render={()=>{
                   return <div>
-                      earth
+                      <Title h2="Земля"/>
+                      <Founders2/>
                   </div>
               }}/>
               <Route path="/mars" render={()=>{
                   return <div>
-                      mars
+                      <Title h2="Марс"/>
                   </div>
               }}/>
               <Route path="/jupiter" render={()=>{
                   return <div>
-                      jupiter
+                      <Title h2="Юпитер"/>
                   </div>
               }}/>
               <Route path="/saturn" render={()=>{
                   return <div>
-                      saturn
+                      <Title h2="Сатурн"/>
                   </div>
               }}/>
               <Route path="/uranus" render={()=>{
                   return <div>
-                      uranus
+                      <Title h2="Уран"/>
                   </div>
               }}/>
               <Route path="/neptune" render={()=>{
                   return <div>
-                      neptune
+                      <Title h2="Нептун"/>
                   </div>
               }}/>
               <Route path="/pluto" render={()=>{
                   return <div>
-                      pluto
+                      <Title h2="Плутон"/>
+                      <Pluto/>
                   </div>
               }}/>
               <Route path="/questions" render={()=>{

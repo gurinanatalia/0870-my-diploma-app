@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 const ContactUsLine = ()=>{
     return <div className="py-5 bg-primary">
@@ -8,7 +9,7 @@ const ContactUsLine = ()=>{
                     <h2 className="text-uppercase text-white mb-0">Интересно о космосе</h2>
                 </div>
                 <div className="col-md-3 ml-auto text-center text-md-left">
-                    <a href="#" className="btn btn-bg-primary d-inline-block d-md-block font-secondary text-uppercase">Задать вопрос</a>
+                    <NavLink to="/contact" className="btn btn-bg-primary d-inline-block d-md-block font-secondary text-uppercase">Задать вопрос</NavLink>
                 </div>
             </div>
         </div>

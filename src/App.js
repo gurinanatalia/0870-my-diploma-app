@@ -14,6 +14,7 @@ import Services from "./components/Services";
 import OwlCarousel from "./components/OwlCarousel";
 import Blog from "./components/Blog";
 import ContactUs from "./components/ContactUs";
+import Bio from "./components/Bio";
 
 function App(props) {
   return(
@@ -24,14 +25,14 @@ function App(props) {
                   return <div>
                       <Products/>
                       <About/>
-                      <Founders/>
-                      <Reviews/>
                       <ContactUsLine/>
                   </div>
               }}/>
               <Route path="/mercury" render={()=>{
                   return <div>
                       <OwlCarousel/>
+                      <Founders/>
+                      <Reviews/>
                   </div>
               }}/>
               <Route path="/venus" render={()=>{
@@ -84,6 +85,7 @@ function App(props) {
               <Route path="/blog" render={()=>{
                   return <div>
                       <Caption h1="Космонавт Олег Артемьев" h2="Герой России"/>
+                      <Bio/>
                       <Blog getArticles={props.getArticles}/>
                   </div>
               }}/>

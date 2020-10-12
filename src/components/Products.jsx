@@ -5,15 +5,18 @@ const Products = ()=>{
 
         <div className="site-section">
             <div className="container">
+
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <span className="caption d-block mb-2 font-secondary font-weight-bold">Стуктура и состав</span>
                         <h2 className="site-section-heading text-uppercase text-center font-secondary">Солнечная система</h2>
                     </div>
                 </div>
+
                 <div className="row">
                     <div className="col-md-12 block-13 nav-direction-white">
                         <div className="nonloop-block-13 owl-carousel">
+
                             <div className="media-image">
                                 <img src="images/solar_system.jpg" alt="Image" className="img-fluid"/>
                                 <div className="media-image-body">
@@ -26,6 +29,7 @@ const Products = ()=>{
                                         className="caption">Читать</span></a></p>
                                 </div>
                             </div>
+
                             <div className="media-image">
                                 <img src="images/sun.jpg" alt="Image" className="img-fluid"/>
                                 <div className="media-image-body">
@@ -50,6 +54,7 @@ const Products = ()=>{
                                         А для самой удалённой планеты — Нептуна — период обращения составляет 165 земных лет.</p>
                                 </div>
                             </div>
+
                             <div className="media-image">
                                 <img src="images/asteroid.jpg" alt="Image" className="img-fluid"/>
                                 <div className="media-image-body">
@@ -63,6 +68,7 @@ const Products = ()=>{
                                         className="caption">Читать</span></a></p>
                                 </div>
                             </div>
+
                             <div className="media-image">
                                 <img src="images/giants.jpg" alt="Image" className="img-fluid"/>
                                 <div className="media-image-body">
@@ -72,6 +78,7 @@ const Products = ()=>{
                                         Уран и Нептун обладают бо́льшим содержанием льда в их составе. </p>
                                 </div>
                             </div>
+
                             <div className="media-image">
                                 <img src="images/comet.jpg" alt="Image" className="img-fluid"/>
                                 <div className="media-image-body">
@@ -82,9 +89,12 @@ const Products = ()=>{
                                         className="caption">Читать</span></a></p>
                                 </div>
                             </div>
+
                         </div>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

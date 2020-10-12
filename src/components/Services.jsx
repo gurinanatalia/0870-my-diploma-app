@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 const Services = ()=>{
     return <div>
-        <div className="site-section">
+        <div className="site-section py-5">
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-md-12">

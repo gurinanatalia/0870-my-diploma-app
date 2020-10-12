@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = ()=>{
     return <div>
-        <div className="site-section">
+        <div className="site-section my-5">
             <div className="container">
                 <div className="row mb-5">
                     <div className="col-12"><h1 className="text-uppercase">«Семейный портрет» (англ. Family Portrait)</h1></div>
@@ -62,7 +62,7 @@ const About = ()=>{
 
         <div className="site-section">
             <div className="container">
-                <div className="row mb-5">
+                <div className="row my-5">
                     <div className="col-md-12 text-center">
                         <span className="caption d-block mb-2 font-secondary font-weight-bold">Блиц-опрос</span>
                         <h2 className="site-section-heading text-uppercase text-center font-secondary">Возраст</h2>

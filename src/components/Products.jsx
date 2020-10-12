@@ -6,7 +6,7 @@ const Products = ()=>{
         <div className="site-section">
             <div className="container">
 
-                <div className="row">
+                <div className="row my-5">
                     <div className="col-md-12 text-center">
                         <span className="caption d-block mb-2 font-secondary font-weight-bold">Стуктура и состав</span>
                         <h2 className="site-section-heading text-uppercase text-center font-secondary">Солнечная система</h2>
